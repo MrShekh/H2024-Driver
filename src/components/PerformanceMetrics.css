@@ -1,0 +1,76 @@
+.performance-metrics {
+    background-color: #f4f7fc;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #34495e;
+}
+
+.metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.metric-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.metric-item:hover {
+    transform: translateY(-5px);
+}
+
+.metric-item h4 {
+    font-size: 18px;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.metric-item p {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.metric-icon {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #27ae60;
+    height: 100%;
+}
+
+.rating-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filled-star, .half-star {
+    color: #f1c40f;
+    margin: 0 2px;
+}
+
+.half-star {
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}

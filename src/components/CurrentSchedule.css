@@ -1,0 +1,64 @@
+/* src/components/CurrentSchedule.css */
+.current-schedule {
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px; /* Slightly larger border radius for a modern look */
+    padding: 30px; /* More padding for a spacious feel */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Softer, larger shadow */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.current-schedule:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Elevate on hover */
+}
+
+.schedule-details,
+.performance-metrics,
+.upcoming-events {
+    margin-bottom: 20px; /* Increased bottom margin for spacing */
+    padding: 15px; /* Added padding for sections */
+    background-color: #f9f9f9; /* Light gray background for sections */
+    border-radius: 8px; /* Rounded corners for sections */
+    border: 1px solid #e0e0e0; /* Light border for sections */
+}
+
+.schedule-details h2,
+.performance-metrics h2,
+.upcoming-events h2 {
+    margin-bottom: 10px; /* Spacing below section headers */
+    color: #3498db; /* Primary color for headers */
+    font-size: 20px; /* Slightly larger font size */
+}
+
+.schedule-details p,
+.performance-metrics p {
+    margin: 5px 0; /* Consistent margin for paragraphs */
+    color: #555; /* Darker text color for readability */
+}
+
+.next-stops,
+.upcoming-events {
+    margin-top: 20px; /* Increased top margin for better separation */
+}
+
+.next-stops ul,
+.upcoming-events ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.next-stops li,
+.upcoming-events li {
+    padding: 10px; /* Increased padding for list items */
+    border: 1px solid #3498db; /* Blue border for stops */
+    border-radius: 6px; /* Rounded corners for list items */
+    margin-bottom: 10px; /* Increased bottom margin for spacing */
+    background-color: #e0f7fa; /* Soft light blue background for stops */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.next-stops li:hover,
+.upcoming-events li:hover {
+    background-color: #b2ebf2; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}

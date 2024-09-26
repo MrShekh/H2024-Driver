@@ -1,0 +1,30 @@
+/* src/styles.css or src/components/RouteMap.css */
+.route-map {
+    padding: 20px;
+}
+
+.route-map input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.route-map button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.route-map button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
