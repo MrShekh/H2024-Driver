@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/H2024-Driver/static/css/main.6e73d673.css",
+    "main.js": "/H2024-Driver/static/js/main.00e8f1fe.js",
+    "static/js/453.164036ca.chunk.js": "/H2024-Driver/static/js/453.164036ca.chunk.js",
+    "index.html": "/H2024-Driver/index.html",
+    "main.6e73d673.css.map": "/H2024-Driver/static/css/main.6e73d673.css.map",
+    "main.00e8f1fe.js.map": "/H2024-Driver/static/js/main.00e8f1fe.js.map",
+    "453.164036ca.chunk.js.map": "/H2024-Driver/static/js/453.164036ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e73d673.css",
+    "static/js/main.00e8f1fe.js"
+  ]
+}
